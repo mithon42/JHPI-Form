@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+body{
+  background: #d1d1d1;
+}
+.divider{
+  width: 65%;
+  border: .1rem solid #d1d1d1;
+  margin: 1rem auto;
+}
+.m-1{
+  margin: 1.5rem auto;
+}
+.mb-1{
+  margin-bottom: 1rem;
+}
+.container{
+  max-width: 48rem;
+  margin: 1rem auto;
+}
+form{
+  margin: 0 1rem;
+  padding: 1rem;
+  /* border: .2rem dashed tomato; */
+  background: white;
+  overflow: hidden;
+  box-shadow: -.1rem .1rem .4rem #000, .1rem -.1rem .4rem #000;
+}
+.main-title{
+  text-align: center;
+  font-size: 2.3rem;
+  letter-spacing: .1rem;
+  color: tomato;
+}
+.top-area{
+  overflow: hidden;
+}
+.margin{
+  width: 100%;
+  margin: 1.5rem 0;
+}
+label{
+  font-size: 1.4rem;
+  width: 30%;
+}
+.margin input{
+  width: 70%;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.4rem;
+  border: 0.1rem solid #cccccc;
+  float: right;
+}
+.margin input:focus{
+  outline: none;
+  border-color: tomato;
+}
+.bottom-area{
+  margin-top: 1.5rem;
+}
+.bottom-area h2{
+  margin-bottom: 0.5rem;
+}
+span{
+  font-size: 1.3rem;
+}
+.bottom-area input {
+  margin-bottom: 0.5rem;
+}
+.btn{
+  width: 50%;
+  padding: 0.6rem 1rem;
+  font-size: 1.5rem;
+  background: #236f9b;
+  color: #fff;
+  border: none;
+  float: right;
+}
+.btn:hover{
+  cursor: pointer;
+  background: #d1d1d1;
+  color: black;
+}
+
+
+
+@media only screen and (max-width: 450px){
+  html{
+    font-size: 52.5%;
+  }
+}
+
+@media only screen and (max-width: 368px){
+  html{
+    font-size: 50%;
+  }
+}
